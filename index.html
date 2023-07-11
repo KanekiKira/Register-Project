@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h3></h3>
+
+
+
+    <!-- users group -->
+<div class="registration">
+    <button onclick="createUser()" class="registrButton">Registr</button>
+    <button onclick="loginUser()" class="loginButton">Login</button>
+    <button onclick="logoutUser()" class="logoutButton">Logout</button>
+</div>
+
+
+<br>
+<!-- posts group -->
+<div class="postBtns">
+<button onclick="createPost()" class="postButton">Create Post</button>
+<button onclick="updatePost()" class="updatePostButton">Update Post</button>
+<button onclick="deletePost()" class="deletePostButton">Delete Post</button>
+</div>
+
+
+<br>
+<div class="read-Posts">
+    <ul></ul>
+    <button onclick="readPosts()" class="readPostButton">Read Posts</button>
+</div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
